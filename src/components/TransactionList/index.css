@@ -1,0 +1,23 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 16px;
+    
+  }
+  
+  .ReactTable .rt-thead {
+    overflow-y: scroll;
+  }
+  .ReactTable .rt-tbody .rt-td {
+    border-right: 1px solid rgba(0,0,0,0.02);
+    text-align: center!important;
+  }
+  .ReactTable{
+    color: black!important;
+  }
+  .greenCharacter{
+      color:green
+  }
+  .redCharacter{
+    color:red
+}

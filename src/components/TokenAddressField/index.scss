@@ -1,0 +1,24 @@
+.MuiFormControl-root {
+  min-width: 100% !important;
+}
+.label-div{
+ 
+    display: flex;
+    align-items: center;
+    text-align: right;
+    padding-top:3px;
+    padding-left:11%;
+}
+.button-div{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.date-div{
+  display:inline;
+  max-width: 35%;
+}
+.form-container{
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,54 @@
+@import '../../assets/scss/variables.scss';
+.container {
+  header {
+    height: 100px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+    a {
+      font-size: 36px;
+      color: $bg-gray1;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      img {
+        width: 30px;
+        margin-right: 16px;
+      }
+    }
+  }
+  .menuBar {
+    height: 50px;
+    background: gray;
+    margin-bottom: 60px;
+    text-align: right;
+    ul{
+      background-color:gray;
+      padding-right:8%;
+      display: flex;
+      justify-content: center;
+      float: right;
+      li{
+        border-bottom: 0px solid #262626;
+        display: inline;
+        padding:22px;
+        color: white;
+        font-size: 22px;
+        text-align:right;
+        a{
+          color:white;
+        }
+      }
+    }
+  }
+  .trading-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      font-size: 16px;
+    }
+  }
+  
+}
